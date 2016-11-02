@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: silver" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller">
+  <children>
+    <Button fx:id="button" layoutX="829.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#clickBut" text="Пошук" />
+    <TextField fx:id="textField" layoutX="15.0" layoutY="24.0" prefWidth="794.0" />
+    <TextArea fx:id="textArea" layoutX="22.0" layoutY="111.0" prefHeight="475.0" prefWidth="856.0" wrapText="true" />
+    <Label layoutX="22.0" layoutY="66.0" style="" text="Час виконанння">
+      <font>
+        <Font size="14.0" />
+      </font>
+    </Label>
+    <TextField fx:id="fieldForTime" layoutX="179.0" layoutY="66.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>
